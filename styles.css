@@ -87,8 +87,8 @@ body {
 
 .authorContainer {
   display: flex;
-  flex-direction: row;
-  justify-self: flex-start;
+  align-items: center;
+  justify-content: center;
   width: 129px;
   height: 32px;
   gap: 12px;
