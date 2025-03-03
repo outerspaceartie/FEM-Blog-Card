@@ -1,0 +1,116 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --slate-grey: hsl(0, 0%, 42%);
+  --dark-grey: hsl(hsl(0, 0%, 7%));
+  --yellow: hsl(47, 88%, 63%);
+}
+
+body {
+  background-color: var(--yellow);
+  font-family: "Figtree";
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+.card:hover {
+  filter: drop-shadow(16px 16px);
+}
+
+.cardContainer #titleText:hover {
+  color: var(--yellow);
+}
+
+.card {
+  width: 384px;
+  height: 522px;
+  background-color: var(--white);
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 24px;
+  filter: drop-shadow(8px 8px);
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+}
+
+.headerImage {
+  width: 336px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.textContainer {
+  width: 336px;
+  height: 194px;
+  margin: 24px;
+}
+
+.topic {
+  background-color: var(--yellow);
+  width: 82px;
+  height: 29px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#topicText {
+  font-size: 14px;
+  font-weight: 800;
+  padding: 4px 12px;
+}
+
+#dateText {
+  font-size: 14px;
+}
+
+#titleText {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+#descriptionText {
+  color: var(--slate-grey);
+  font-size: 16px;
+}
+
+.authorContainer {
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+  width: 129px;
+  height: 32px;
+  gap: 12px;
+}
+
+#authorImage {
+  width: 32px;
+  height: 32px;
+}
+
+#authorName {
+  width: 85px;
+  height: 21px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.attribution {
+  font-size: 13px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
