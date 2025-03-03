@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/blog-preview-card-using-flexbox-of1QgyBjBB)
-- Live Site URL: [Vercel Live Site](https://fem-blog-card-eight.vercel.app/)
+- Live Site URL: [Github Pages Live Site](https://outerspaceartie.github.io/FEM-Blog-Card/)
 
 ## My process
 
